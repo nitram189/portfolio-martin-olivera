@@ -19,7 +19,7 @@ export default function HeroSection() {
             
           <h1 className="font-extrabold text-5xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500">
-              Hello, I'm{' '}
+              {`Hello, I'm`}{' '}
             </span>
             <br />
             <TypeAnimation
@@ -38,7 +38,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-black/80 text-base sm:text-lg lg:text-xl">
-            It's Martin here. An enthusiastic Frontend React developer based in Buenos Aires, Argentina.
+            {`It's Martin here. An enthusiastic Frontend React developer based in Buenos Aires, Argentina.`}
           </p>
           
           <Link

@@ -14,7 +14,7 @@ export default function AboutSection() {
 
         <div className="text-black/80 text-justify space-y-2">
           <p>
-            I'm Martin Olivera, a 34-year-old professional with a diverse background and a passion for creating immersive digital experiences.
+            {`I'm Martin Olivera, a 34-year-old professional with a diverse background and a passion for creating immersive digital experiences.`}
           </p>
           <p>
             I began my career as a Mechanical Engineer in Argentina, where I spent seven years improving my problem-solving skills and the ability to thrive in a challenging and dynamic environment.

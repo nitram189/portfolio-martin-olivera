@@ -10,7 +10,7 @@ export default function ContactSection() {
         <h2 className="text-sky-500 font-bold text-lg uppercase">
           Contact</h2>
         
-        <h3 className="lg:text-3xl text-2xl font-semibold">Let's connect!</h3>
+        <h3 className="lg:text-3xl text-2xl font-semibold">{`Let's connect!`}</h3>
 
         <div className="py-5 flex flex-wrap gap-10 lg:justify-center">
 
