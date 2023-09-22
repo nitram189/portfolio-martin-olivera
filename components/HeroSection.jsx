@@ -22,19 +22,21 @@ export default function HeroSection() {
               {`Hello, I'm`}{' '}
             </span>
             <br />
-            <TypeAnimation
-              sequence={[
-                'Martin',
-                2000,
-                'an engineer',
-                2000,
-                'a web developer',
-                2000,
-                ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <div className="w-full h-24 xl:h-16">
+              <TypeAnimation
+                sequence={[
+                  'Martin',
+                  2000,
+                  'an engineer',
+                  2000,
+                  'a web developer',
+                  2000,
+                  ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </div>
           </h1>
 
           <p className="text-black/80 text-base sm:text-lg lg:text-xl">
