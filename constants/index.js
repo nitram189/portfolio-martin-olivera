@@ -37,6 +37,15 @@ export const PROJECTS_DATA = [
     codeLink: 'https://github.com/nitram189/blogme-leo-olivera',
     demoLink: 'https://blogme-leo-olivera.vercel.app/'
   },
+  { id: 5,
+    title: 'moovapp',
+    description: `Moovapp is an innovative web application designed to provide users with an interactive and immersive simulation of browsing through the popular streaming platform, Netflix. This project aims to replicate the Netflix user interface and functionalities while also offering user account management features, including sign-up, login, and logout capabilities.`,
+    image: '/front-moovapp.png',
+    library: '/vite.svg',
+    database: '/firebase.png',
+    codeLink: 'https://github.com/nitram189/moovapp',
+    demoLink: 'https://moovapp-rose.vercel.app/'
+  },
 ]
 
 
