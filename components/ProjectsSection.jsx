@@ -13,7 +13,7 @@ export default function AboutSection() {
         <div className="w-full flex flex-col gap-2">
             
           <h2 className="text-sky-500 font-bold text-lg uppercase">
-           My proyects</h2>
+           My projects</h2>
           
           <h3 className="text-3xl font-semibold">Every project is a one-of-a-kind development journey!</h3>
 
