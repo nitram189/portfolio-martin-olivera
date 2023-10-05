@@ -46,6 +46,15 @@ export const PROJECTS_DATA = [
     codeLink: 'https://github.com/nitram189/moovapp',
     demoLink: 'https://moovapp-rose.vercel.app/'
   },
+  { id: 6,
+    title: 'Weekaway',
+    description: `A homepage that attracts visitors with captivating images and headlines highlighting holidays trips in famous destinations around the world. It has a smooth navigation and user-friendly interactions throughout the website incorporating interactive features, such as search and filtering options. To ensure an optimal viewing experience across various devices, this website has responsive design principles.`,
+    image: '/front-weekaway.png',
+    library: '/next-js.svg',
+    database: '',
+    codeLink: 'https://github.com/nitram189/weekaway',
+    demoLink: 'https://weekaway-indol.vercel.app/'
+  },
 ]
 
 
