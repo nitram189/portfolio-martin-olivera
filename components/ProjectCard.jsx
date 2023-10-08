@@ -56,18 +56,18 @@ export default function ProjectCard({ project }) {
             }
           </div>
 
-        <div className="flex justify-center gap-10 py-5 font-semibold">
+        <div className="flex justify-center gap-10 py-5 font-medium">
           <Link
             href={ codeLink }
             target="_blank"
-            className="px-3 py-1 border rounded-full border-black/80">
+            className="px-3 py-1 rounded-full border-[1.5px] border-black/80 hover:bg-black/5 ease-in duration-200">
               Code
           </Link>
 
           <Link
             href={ demoLink }
             target="_blank"
-            className="px-3 py-1 border rounded-full border-black/80">
+            className="px-3 py-1 rounded-full border-[1.5px] border-black/80 hover:bg-black/5 ease-in duration-200">
               Live Demo
           </Link>
         </div>

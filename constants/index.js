@@ -2,14 +2,15 @@
 export const PROJECTS_DATA = [
 
   { id: 1,
-    title: 'cryptoapp.',
-    description: 'A website where users can get real-time cryptocurrency quotes, track their favorite cryptocurrencies, and read the latest news related to the crypto world. The website provides an interface for searching, comparing and getting news, all about cryptos.',
-    image: '/front-crypto.png',
+    title: 'moovapp',
+    description: `Moovapp is an innovative web application designed to provide users with an interactive and immersive simulation of browsing through the popular streaming platform, Netflix. This project aims to replicate the Netflix user interface and functionalities while also offering user account management features, including sign-up, login, and logout capabilities.`,
+    image: '/front-moovapp.png',
     library: '/vite.svg',
-    database: '',
-    codeLink: 'https://github.com/nitram189/cryptoapp-vite',
-    demoLink: 'https://cryptoapp-martindev.netlify.app/'
+    database: '/firebase.png',
+    codeLink: 'https://github.com/nitram189/moovapp',
+    demoLink: 'https://moovapp-rose.vercel.app/'
   },
+
   { id: 2,
     title: 'cafeapp.',
     description: 'An interactive kiosk application that enables users to conveniently order food and beverages, adjust quantities, and compile them into a checkout list for seamless payment processing.',
@@ -37,15 +38,17 @@ export const PROJECTS_DATA = [
     codeLink: 'https://github.com/nitram189/blogme-leo-olivera',
     demoLink: 'https://blogme-leo-olivera.vercel.app/'
   },
+  
   { id: 5,
-    title: 'moovapp',
-    description: `Moovapp is an innovative web application designed to provide users with an interactive and immersive simulation of browsing through the popular streaming platform, Netflix. This project aims to replicate the Netflix user interface and functionalities while also offering user account management features, including sign-up, login, and logout capabilities.`,
-    image: '/front-moovapp.png',
+    title: 'cryptoapp.',
+    description: 'A website where users can get real-time cryptocurrency quotes, track their favorite cryptocurrencies, and read the latest news related to the crypto world. The website provides an interface for searching, comparing and getting news, all about cryptos.',
+    image: '/front-crypto.png',
     library: '/vite.svg',
-    database: '/firebase.png',
-    codeLink: 'https://github.com/nitram189/moovapp',
-    demoLink: 'https://moovapp-rose.vercel.app/'
+    database: '',
+    codeLink: 'https://github.com/nitram189/cryptoapp-vite',
+    demoLink: 'https://cryptoapp-martindev.netlify.app/'
   },
+
   { id: 6,
     title: 'Weekaway',
     description: `A homepage that attracts visitors with captivating images and headlines highlighting holidays trips in famous destinations around the world. It has a smooth navigation and user-friendly interactions throughout the website incorporating interactive features, such as search and filtering options. To ensure an optimal viewing experience across various devices, this website has responsive design principles.`,

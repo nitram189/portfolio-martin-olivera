@@ -19,22 +19,22 @@ export default function HeroSection() {
             
           <h1 className="font-extrabold text-5xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500">
-              {`Hello, I'm`}{' '}
+              {`Hi, I'm`}{' '}
             </span>
             <br />
             <div className="w-full h-24 xl:h-16">
               <TypeAnimation
                 sequence={[
                   'Martin',
-                  2000,
+                  1500,
                   'an engineer',
-                  2000,
+                  1500,
                   'a web developer',
-                  2000,
+                  1500,
                   ]}
                 wrapper="span"
                 speed={50}
-                repeat={Infinity}
+                repeat='none'
               />
             </div>
           </h1>
