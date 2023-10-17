@@ -8,7 +8,9 @@ export const PROJECTS_DATA = [
     library: '/vite.svg',
     database: '/firebase.png',
     codeLink: 'https://github.com/nitram189/moovapp',
-    demoLink: 'https://moovapp-rose.vercel.app/'
+    demoLink: 'https://moovapp-rose.vercel.app/',
+    libraryName: 'Vite',
+    dataName: 'Firebase'
   },
 
   { id: 2,
@@ -18,7 +20,9 @@ export const PROJECTS_DATA = [
     library: '/next-js.svg',
     database: '/prisma.svg',
     codeLink: 'https://github.com/nitram189/cafeapp-next',
-    demoLink: 'https://cafeapp-next-git-main-nitram189.vercel.app/'
+    demoLink: 'https://cafeapp-next-git-main-nitram189.vercel.app/',
+    libraryName: 'Next.JS',
+    dataName: 'Prisma'
   },
   // { id: 3,
   //   title: 'GuitarLA.',
@@ -36,7 +40,9 @@ export const PROJECTS_DATA = [
     library: '/next-js.svg',
     database: '/strapi.png',
     codeLink: 'https://github.com/nitram189/blogme-leo-olivera',
-    demoLink: 'https://blogme-leo-olivera.vercel.app/'
+    demoLink: 'https://blogme-leo-olivera.vercel.app/',
+    libraryName: 'Next.JS',
+    dataName: 'Strapi'
   },
   
   { id: 5,
@@ -46,7 +52,9 @@ export const PROJECTS_DATA = [
     library: '/vite.svg',
     database: '',
     codeLink: 'https://github.com/nitram189/cryptoapp-vite',
-    demoLink: 'https://cryptoapp-martindev.netlify.app/'
+    demoLink: 'https://cryptoapp-martindev.netlify.app/',
+    libraryName: 'Vite',
+    dataName: ''
   },
 
   { id: 6,
@@ -56,7 +64,9 @@ export const PROJECTS_DATA = [
     library: '/next-js.svg',
     database: '',
     codeLink: 'https://github.com/nitram189/weekaway',
-    demoLink: 'https://weekaway-indol.vercel.app/'
+    demoLink: 'https://weekaway-indol.vercel.app/',
+    libraryName: 'Next.JS',
+    dataName: ''
   },
 ]
 
@@ -67,29 +77,36 @@ export const STACK_IMAGES = [
   {
     id: 1,
     image: '/js.png',
+    name: 'JavaScript'
   },
   {
     id: 2,
     image: '/react.png',
+    name: 'React'
   },
   {
     id: 3,
     image: '/next-js.svg',
+    name: 'Next.JS'
   },
   {
     id: 4,
     image: '/vite.svg',
+    name: 'Vite'
   },
   {
     id: 5,
-    image: '/tailwind.png',
+    image: '/strapi.png',
+    name: 'Strapi'
   },
   {
     id: 6,
     image: '/astro-icon-dark.png',
+    name: 'Astro'
   },
   {
     id: 7,
-    image: '/strapi.png',
+    image: '/tailwind.png',
+    name: 'Tailwindcss'
   }
 ]

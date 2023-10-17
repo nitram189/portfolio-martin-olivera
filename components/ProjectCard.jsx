@@ -1,10 +1,11 @@
+
 import Image from "next/image";
 import Link from "next/link";
 
 
 export default function ProjectCard({ project }) {
 
-  const { title, description, image, library, database, codeLink, demoLink } = project;
+  const { title, description, image, library, database, codeLink, demoLink, libraryName, dataName } = project;
 
 
   return (
@@ -28,31 +29,41 @@ export default function ProjectCard({ project }) {
         <p className="text-gray-800 py-3 text-justify lg:text-lg">{ description }</p>
           
           <div className="flex items-center justify-center gap-7 py-2">
-            <Image
-              src='/react.png'
-              alt='React logo'
-              width={40}
-              height={40}/>
+            
+            <div  className="tooltip cursor-pointer" data-name='React'>
+              <Image
+                src='/react.png'
+                alt='React logo'
+                width={40}
+                height={40}/>
+            </div>
 
-            <Image
-              src={ library }
-              alt={`${ library } logo`}
-              width={35}
-              height={35}/>
+            <div className="tooltip cursor-pointer" data-name='Tailwindcss'>
+              <Image
+                src='/tailwind.png'
+                alt='Tailwindcss logo'
+                width={40}
+                height={40}/>   
+            </div>
 
-            <Image
-              src='/tailwind.png'
-              alt='Tailwindcss logo'
-              width={40}
-              height={40}/>   
+            <div className="tooltip cursor-pointer" data-name={ libraryName }>
+              <Image
+                 src={ library }
+                 alt={`${ library } logo`}
+                 width={35}
+                 height={35}/>
+            </div>
+
               
             { database.length === 0
-              ? <div></div>
-              : <Image
-                  src={ database }
-                  alt={`${ database } logo`}
-                  width={40}
-                  height={40}/> 
+              ? null
+              : <div className="tooltip cursor-pointer" data-name={ dataName }>
+                  <Image
+                    src={ database }
+                    alt={`${ database } logo`}
+                    width={40}
+                    height={40}/> 
+              </div>
             }
           </div>
 
