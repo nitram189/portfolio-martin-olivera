@@ -24,15 +24,18 @@ export const PROJECTS_DATA = [
     libraryName: 'Next.JS',
     dataName: 'Prisma'
   },
-  // { id: 3,
-  //   title: 'GuitarLA.',
-  //   description: 'An online guitar store where users can explore a diverse range of guitars, access courses, and follow a blog to stay updated with the latest techniques in the captivating world of music.',
-  //   image: '/front-guitarla.png',
-  //   library: '/next-js.svg',
-  //   database: '/strapi.png',
-  //   codeLink: '',
-  //   demoLink: ''
-  // },
+
+  { id: 3,
+    title: 'GuitarLA.',
+    description: 'An online guitar store where users can explore a diverse range of guitars, access courses, and follow a blog to stay updated with the latest techniques in the captivating world of music.',
+    image: '/front-guitarla.png',
+    library: '/next-js.svg',
+    database: '/firebase.png',
+    codeLink: 'https://github.com/nitram189/guitarLA',
+    demoLink: 'https://guitar-la-phi.vercel.app/',
+    libraryName: 'Next',
+    dataName: 'Firebase'
+  },
   { id: 4,
     title: 'blogme.',
     description: `A blog showcasing my brother's journeys across nearly the entire American continent. Whether by bicycle or backpacking, this blog brings together adventure, challenges, personal experiences, diverse cultures, and much more.`,
@@ -86,27 +89,27 @@ export const STACK_IMAGES = [
   },
   {
     id: 3,
+    image: '/tailwind.png',
+    name: 'Tailwindcss'
+  },
+  {
+    id: 4,
     image: '/next-js.svg',
     name: 'Next.JS'
   },
   {
-    id: 4,
+    id: 5,
     image: '/vite.svg',
     name: 'Vite'
   },
   {
-    id: 5,
+    id: 6,
     image: '/strapi.png',
     name: 'Strapi'
   },
   {
-    id: 6,
-    image: '/astro-icon-dark.png',
-    name: 'Astro'
-  },
-  {
     id: 7,
-    image: '/tailwind.png',
-    name: 'Tailwindcss'
-  }
+    image: '/firebase.png',
+    name: 'Firebase'
+  },
 ]
