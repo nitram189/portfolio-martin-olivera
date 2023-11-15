@@ -28,7 +28,7 @@ export default function ProjectCard({ project }) {
 
         <p className="text-gray-800 py-3 text-justify lg:text-lg">{ description }</p>
           
-          <div className="flex items-center justify-center gap-7 py-2">
+          <div className="flex items-center justify-center gap-6 py-2">
             
             <div  className="tooltip cursor-pointer" data-name='React'>
               <Image
