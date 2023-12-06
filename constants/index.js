@@ -24,6 +24,17 @@ export const PROJECTS_DATA = [
     dataName: ''
   },
   { id: 3,
+    title: 'FEIZER',
+    description: 'An e-commerce where users can buy some tools and machines for dive into the world of pottery. Customers can browse the collection, select items, and effortlessly add them to a cart having the flexibility of updating quantities, remove items, and finalize a purchase by filling out a convenient form with their details.',
+    image: '/front-feizer.png',
+    library: '/vite.svg',
+    database: '/firebase.png',
+    codeLink: 'https://github.com/nitram189/proyecto-final-olivera-martin',
+    demoLink: 'https://proyecto-final-olivera-martin-jbalj316k-nitram189.vercel.app/',
+    libraryName: 'Vite',
+    dataName: 'Firebase'
+  },
+  { id: 4,
     title: 'cafeapp.',
     description: 'An interactive kiosk application that enables users to conveniently order food and beverages, adjust quantities, and compile them into a checkout list for seamless payment processing.',
     image: '/front-cafeapp.png',
@@ -34,8 +45,7 @@ export const PROJECTS_DATA = [
     libraryName: 'Next.JS',
     dataName: 'Prisma'
   },
-
-  { id: 4,
+  { id: 5,
     title: 'GuitarLA.',
     description: 'An online guitar store where users can explore a diverse range of guitars, access courses, and follow a blog to stay updated with the latest techniques in the captivating world of music.',
     image: '/front-guitarla.png',
@@ -46,7 +56,7 @@ export const PROJECTS_DATA = [
     libraryName: 'Next',
     dataName: 'Firebase'
   },
-  { id: 5,
+  { id: 6,
     title: 'blogme.',
     description: `A blog showcasing my brother's journeys across nearly the entire American continent. Whether by bicycle or backpacking, this blog brings together adventure, challenges, personal experiences, diverse cultures, and much more.`,
     image: '/front-blogme.png',
@@ -58,7 +68,7 @@ export const PROJECTS_DATA = [
     dataName: 'Strapi'
   },
   
-  { id: 6,
+  { id: 7,
     title: 'cryptoapp.',
     description: 'A website where users can get real-time cryptocurrency quotes, track their favorite cryptocurrencies, and read the latest news related to the crypto world. The website provides an interface for searching, comparing and getting news, all about cryptos.',
     image: '/front-crypto.png',
@@ -70,7 +80,7 @@ export const PROJECTS_DATA = [
     dataName: ''
   },
 
-  { id: 7,
+  { id: 8,
     title: 'Weekaway',
     description: `A homepage that attracts visitors with captivating images and headlines highlighting holidays trips in famous destinations around the world. It has a smooth navigation and user-friendly interactions throughout the website incorporating interactive features, such as search and filtering options. To ensure an optimal viewing experience across various devices, this website has responsive design principles.`,
     image: '/front-weekaway.png',
